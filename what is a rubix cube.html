@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link href="css/cube2.css" rel="stylesheet">
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rubik's Cube Explanation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    h2 {
+      color: #16a085;
+      margin-top: 30px;
+    }
+    p {
+      line-height: 1.6;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 4px;
+      border-radius: 3px;
+      font-family: monospace;
+    }
+    .notation {
+      background: #ecf0f1;
+      padding: 10px;
+      border-left: 4px solid #3498db;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🧩 Rubik's Cube - Beginner's Explanation</h1>
+
+  <p>The Rubik's Cube is a 3x3 puzzle with six faces, each consisting of 9 stickers. The goal is to return the cube to its original state — with each face showing only one color — by twisting the sides in various directions.</p>
+
+  <h2>Cube Faces</h2>
+  <p>Each face is labeled based on its position relative to the solver:</p>
+  <ul>
+    <li><strong>U</strong> – Up</li>
+    <li><strong>D</strong> – Down</li>
+    <li><strong>F</strong> – Front</li>
+    <li><strong>B</strong> – Back</li>
+    <li><strong>L</strong> – Left</li>
+    <li><strong>R</strong> – Right</li>
+  </ul>
+
+  <div class="notation">
+    <h2>Notation</h2>
+    <p>Each move is represented by a letter:</p>
+    <ul>
+      <li><code>R</code> – Right face clockwise</li>
+      <li><code>R'</code> – Right face counterclockwise</li>
+      <li><code>U</code> – Up face clockwise</li>
+      <li><code>U'</code> – Up face counterclockwise</li>
+      <li><code>F</code> – Front face clockwise</li>
+      <li><code>F'</code> – Front face counterclockwise</li>
+      <!-- Add more if needed -->
+    </ul>
+  </div>
+
+  <h2>Basic Solve Steps (Beginner Method)</h2>
+  <ol>
+    <li><strong>White Cross:</strong> Make a plus on the white face.</li>
+    <li><strong>White Corners:</strong> Insert corners to complete the white face.</li>
+    <li><strong>Middle Layer:</strong> Solve the four edge pieces in the middle.</li>
+    <li><strong>Yellow Cross:</strong> Make a yellow plus on the top face.</li>
+    <li><strong>Yellow Corners (Position):</strong> Move corners to correct locations.</li>
+    <li><strong>Yellow Corners (Orient):</strong> Turn yellow corners right side up.</li>
+    <li><strong>Final Edges:</strong> Position the last edge pieces to finish the cube.</li>
+  </ol>
+
+  <h2>Fun Fact</h2>
+  <p>There are over <strong>43 quintillion</strong> possible combinations of the Rubik’s Cube—but every configuration can be solved in 20 moves or fewer!</p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cool Home Button</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background-color: #f0f0f0;
+    }
+
+    .home-button {
+      display: inline-block;
+      padding: 12px 25px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+      background: linear-gradient(135deg, #4CAF50, #2E7D32);
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .home-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+      background: linear-gradient(135deg, #66BB6A, #388E3C);
+    }
+
+    .home-button:active {
+      transform: scale(0.98);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <a href="index.html" class="home-button">🏠 Home</a>
+
+</body>
+</html>
